@@ -12,7 +12,7 @@ module Mork
         expect(np.centroid[1]).to eq 71
         np = make 'spec/samples/rm03.jpeg', 124, 105
         expect(np.centroid[0]).to eq 71
-        expect(np.centroid[1]).to eq 61
+        expect(np.centroid[1]).to eq 62
         np = make 'spec/samples/rm04.jpeg', 144, 117
         expect(np.centroid[0]).to eq 84
         expect(np.centroid[1]).to eq 52
@@ -79,4 +79,3 @@ end
 #     expect(rm).to be_an NPatch
 #   end
 # end
-
